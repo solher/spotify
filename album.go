@@ -24,6 +24,8 @@ type SimpleAlbum struct {
 	// The type of the album: one of "album",
 	// "single", or "compilation".
 	AlbumType string `json:"album_type"`
+	// The track count of the album.
+	TotalTracks int `json:"total_tracks"`
 	// The SpotifyID for the album.
 	ID ID `json:"id"`
 	// The SpotifyURI for the album.
